@@ -1,4 +1,4 @@
-import Link from "next/Link";
+import Link from "next/link";
 import { useState, useCallback } from "react";
 import styles from "../styles/Home.module.css";
 import Hamburger from "hamburger-react";
