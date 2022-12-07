@@ -6,12 +6,13 @@ import { useEffect, useState } from "react";
 // run npm export after all this to creat export file or stic package
 
 // export async function getStaticPaths() {
+// let blg = await fs.promises.readdir('blogData')
+// blg = blg.map((b)=>{
+//   return {params:{slug:item.split(".")[0]}}
+// })
+
 //   return {
-//     paths: [
-//       { params: { slug: "bruce-main" } },
-//       { params: { slug: "bruce-one" } },
-//       { params: { slug: "bruce-two" } },
-//     ],
+//     paths: blg,
 //     fallback: true, //false or 'blocking'
 //   };
 // }

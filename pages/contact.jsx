@@ -69,9 +69,18 @@ const Contact = () => {
   };
   return (
     <div className="bg-slate-300 mt-32 dark:bg-gray-800 -mx-5  ">
+      <Head>
+        <title>Contect as Blogger</title>
+        <meta
+          name="description"
+          content="A nyc contact form with file system post"
+        />
+        <link rel="icon" href="/pic1.webp" />
+      </Head>
+
       <main className="">
         {/* Header */}
-        <div className="bg-gray-500 relative -top-32 rounded-3xl  dark:bg-gray-600 mx-10 py-24 sm:py-32">
+        <div className="bg-gray-500 z-10 relative -top-32 rounded-3xl  dark:bg-gray-600 mx-10 py-24 sm:py-32">
           <div className="mx-auto max-w-md pl-4 pr-8 sm:max-w-lg sm:px-6 lg:max-w-7xl lg:px-8">
             <h1 className="text-center text-4xl font-bold leading-10 tracking-tight dark:text-gray-200 text-gray-900  sm:text-5xl sm:leading-none lg:text-6xl">
               Get in touch
@@ -90,7 +99,7 @@ const Contact = () => {
             <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
               <img
                 className="h-56 rounded-xl w-full object-cover lg:absolute lg:h-full"
-                src="https://images.unsplash.com/photo-1556761175-4b46a572b786?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80"
+                src="/b.webp"
                 alt=""
               />
             </div>

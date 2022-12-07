@@ -6,6 +6,14 @@ import styles from "../styles/Home.module.css";
 const About = () => {
   return (
     <div className="overflow-hidden rounded-xl dark:bg-gray-800 bg-gray-50 py-16">
+      <Head>
+        <title>About Blogger</title>
+        <meta
+          name="description"
+          content="A nyc about page tailwind and next.js"
+        />
+        <link rel="icon" href="/lg.svg" />
+      </Head>
       <div className="mx-auto max-w-7xl space-y-8 px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-prose text-base lg:max-w-none">
           <h2 className="text-lg font-semibold dark:text-cyan-400 text-cyan-600">
@@ -130,7 +138,7 @@ const About = () => {
                 <span className="relative rounded-full border-2 border-white sm:absolute sm:top-0 sm:-translate-y-1/2 sm:transform">
                   <img
                     className="h-12 w-12 rounded-full dark:bg-cyan-300 bg-cyan-300 sm:h-20 sm:w-20"
-                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                    src="/p.webp"
                     alt=""
                   />
                 </span>

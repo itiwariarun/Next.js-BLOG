@@ -58,6 +58,11 @@ const Blog = (props) => {
 
   return (
     <>
+      <Head>
+        <title>All Blogs</title>
+        <meta name="description" content="Blogs page by all blogger" />
+        <link rel="icon" href="/blog(1).png" />
+      </Head>
       <div id="blog" className="px-4 rounded-xl xl:px-0 py-12">
         <div className="mx-auto container">
           <h1 className="text-center text-3xl lg:text-5xl tracking-wider dark:text-gray-300 text-gray-900">
@@ -70,7 +75,7 @@ const Blog = (props) => {
                   <div key={blogitem.slug}>
                     <img
                       className="max-h-80 w-full"
-                      src="https://cdn.tuk.dev/assets/components/111220/Blg-6/blog(2).png"
+                      src="/blog(2).png"
                       alt="games"
                     />
                     <div className="py-2 px-4 w-full flex justify-between bg-cyan-700">
