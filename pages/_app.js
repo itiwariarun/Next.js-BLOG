@@ -1,6 +1,5 @@
 import "../styles/globals.css";
 import React from "react";
-import * from "next/babel";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 import "../styles/tailwind.css";
