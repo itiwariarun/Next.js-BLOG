@@ -63,7 +63,7 @@ export default function Home(props) {
                 <div className="">
                   {blogs.map((blogitem) => {
                     return (
-                      blogitem.slug == "bruce-main" && (
+                      blogitem.slug == "ART-main" && (
                         <div
                           key={blogitem.slug}
                           className="md:sticky  mx-auto top-28"
@@ -109,7 +109,7 @@ export default function Home(props) {
                   {blogs.map((blogitem) => {
                     return (
                       blogitem.id < 9 &&
-                      (blogitem.slug !== "bruce-main" ? (
+                      (blogitem.slug !== "ART-main" ? (
                         <div key={blogitem.slug} className="gap-8">
                           <div>
                             <img
